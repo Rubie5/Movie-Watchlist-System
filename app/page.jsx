@@ -1,5 +1,8 @@
+import TopicsList from "./components/TopicsList";
 
-export default function EditTopic() {
-  return <div>edit topic</div>;
-  
+
+
+export default function Home() {
+  return <TopicsList />;
+
 }
