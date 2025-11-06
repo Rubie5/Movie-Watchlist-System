@@ -1,7 +1,7 @@
 // app/api/topics/route.js
 import { NextResponse } from "next/server";
-import Topic from "@/lib/models/topic";           // FIXED
-import connectMongoDB from "@/lib/mongodb";       // FIXED
+import Topic from "@/libs/models/topic";           // FIXED
+import connectMongoDB from "@/libs/mongodb";       // FIXED
 
 export async function POST(request) {
     const { title, description } = await request.json();
